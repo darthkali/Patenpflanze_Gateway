@@ -1,0 +1,25 @@
+#!/bin/sh
+
+echo --------------------------------------------------------------
+echo ----------------------`date +"%Y-%m-%d %T"`---------------------
+echo --------------------------------------------------------------
+echo `date +"%Y-%m-%d %T"` ::: LoRaWan Gateway [Patenpflanze] Restart
+echo "-->"
+echo `date +"%Y-%m-%d %T"` ::: try to stop the PackageForwarder
+
+pkill dual_chan_pkt_f
+ODO: prüfe ob der Prozess immer den gleichen namen hat
+
+#echo `date +"%Y-%m-%d %T"` ::: PackedForwarder was succsessfull stopped
+#echo "-->"
+echo `date +"%Y-%m-%d %T"` ::: try to start the PackageForwarder
+
+
+#cd /home/pi/dual_chan_pkt_fwd
+# ./dual_chan_pkt_fwd
+
+
+
+#echo `date +"%Y-%m-%d %T"` ::: PackedForwarder was succsessfull started
+echo ""
+
